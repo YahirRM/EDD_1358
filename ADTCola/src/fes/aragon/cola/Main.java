@@ -6,12 +6,14 @@ public class Main {
 		
 		Cola<Integer> colita = new Cola();
 		
+		System.out.println(colita.estaVacia());
+		System.out.println(colita.longitud());
 		colita.insertar(20);
-		colita.transversal();
 		colita.insertar(21);
-		colita.transversal();
 		colita.insertar(22);
 		colita.transversal();
+		System.out.println(colita.estaVacia());
+		System.out.println(colita.longitud());
 		colita.extraer();
 		colita.transversal();
 		colita.insertar(23);
@@ -21,5 +23,7 @@ public class Main {
 		colita.transversal();
 		colita.extraer();
 		colita.transversal();
+		System.out.println(colita.estaVacia());
+		System.out.println(colita.longitud());
 	}
 }
